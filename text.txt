@@ -1,0 +1,9 @@
+﻿Poklitar	Dmitro	Kiev	26/04/1980	Чоловіча	11000	380954878741
+Popova	Maria	Kiev	11/11/1991	Жіноча	2000	380505474696
+Korov	Ruslan	Odesa	10/04/1965	Чоловіча	26000	380996521001
+Rostova	Olga	Lviv	07/01/1950	Жіноча	14000	380999848796
+Borov	Vasya	Kiev	17/12/1974	Чоловіча	35000	380999748796
+Ryabko	Taras	Chernivtsi	29/03/1949	Чоловіча	7000	380956532012
+Zozulya	Petro	Kiev	11/11/1952	Чоловіча	3000	380954754518
+Amarov	Ivan	Mikolaiv	03/08/1990	Чоловіча	42000	380501245787
+Dunkan	Vladislava	Sumi	01/09/1933	Жіноча	3100	380503565600

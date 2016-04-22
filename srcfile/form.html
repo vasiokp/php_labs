@@ -1,0 +1,51 @@
+<form action="" method="post">
+		<table>	
+            <h2>
+                <a href ="index.php">Лаб 1 <a><a href ="lab_2.php">Лаб 2 </a><a href ="lab_3.php"> Лаб 3 </a><a href ="lab_4.php"> Лаб 4</a>
+                <a href ="lab_5.php"> Лаб 5</a>
+                    </h2>
+                    <br>
+		<h1>ВАРІАНТ №12</h1>
+			    <tr>
+					<th>Прізвище: </th> 
+					<th> <input name="surname" type="text" pattern="^[A-Z][a-z]+"></th>
+				</tr>
+				<tr>
+					<th>Iм'я: </th> 
+					<th> <input name="name" type="text" pattern="^[A-Z][a-z]+"></th>
+				</tr>
+				
+				<tr>
+					<th>Адреса:</th> 
+					<th> <input name="adress" type="text" pattern="^[A-Z][a-z]+"></th>
+				</tr>
+				
+				<tr>
+					<th>Дата народження: </th> 
+					<th> <input name = "datebirth" placeholder="DD/MM/YEAR" pattern="(([012][0-9])|3[01])\/((0[1-9])|1[012])\/((1((8[7-9][0-9])|9(\d{2})))|(200[0-9]))"></th>
+				</tr>
+				
+				<tr>
+					<th>Стать: </th> 
+					<th><select name = "sex">
+						<option value="Чоловіча">Чоловіча</option>
+						<option value="Жіноча">Жіноча</option>
+					</select></th>
+				</tr>
+				
+				<tr>
+		    		<th>Сума кредиту: </th> 
+		    		<th> <input name="creditsum" type="text"  pattern="^[1-9]\d+"></th>
+				</tr>
+				
+				<tr>
+			        <th>Телефон: </th> 
+			    	<th > <input name="number" type="text" pattern="\d{12}"></th>
+				</tr>
+				
+				<tr>
+					<th colspan="2"><input type='submit' name='submit' value='Отправить'>					
+					</th>
+				</tr>
+    	</table>
+	</form>
