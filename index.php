@@ -1,22 +1,21 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
  <head>
-  <meta charset="utf-8">
-  <title>Лабораторна робота 2 </title>  
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Лабораторна робота 1 </title>  
  <link href="css/style.css" rel="stylesheet">  
  </head>
- <body background = "img/labfon.png" link="#FFD35F" vlink="#DBD7D2" > 
-
+ <body > 
 	<center>
+  <?
+  include 'srcfile\headers.php';
+  ?>
 	<div>
 <font face="Verdana" size="4">
-	<b>Поклітар В.Д.</b>
-    <hr color="gray">
-      <a href="lab_2.php">Лабораторна №2</a>
-         <a href="lab_3.php">Лабораторна №3</a>
-            <a href="lab_4.php">Лабораторна №4</a>
-    <hr color="gray">
-    <img src="http://cs613416.vk.me/v613416732/562d/suAQypdkP84.jpg" height="170" width="120">
+	<b>Поклітар Василь</b>
+  <br>
+    <br>
+    <img src="http://cs613416.vk.me/v613416732/562d/suAQypdkP84.jpg" height="270" width="170">
          <p style="text-align: justify;text-indent: 30px ">
             Я, Поклітар Василь, народився 26 квітня  1995 року в селі Магала. Українець, громадянин України.
             З вересня 2002 року до липня 2011 року навчався у магальській загальноосвітній середній школі, де здобув неповну середню освіту.

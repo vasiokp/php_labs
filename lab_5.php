@@ -1,15 +1,22 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Лабораторна робота 2 </title>  
+  <title>Лабораторна робота 5 </title>  
   <link href="css/style.css" rel="stylesheet"> 
  </head>
  <body>
-     <div id="fo">
+   	<center>	
      <?
+
+     include 'srcfile\headers.php';
      include 'srcfile\form.html';
+     include 'srcfile\forDatabase.php'; 
+    dbConnect();
+     selectAll();
+    insert(); 
+   // include_once 'srcfile\selectAll.php'; 
      ?>
-         </div>
+	</center>	
  </body>
  </html>

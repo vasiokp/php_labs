@@ -3,18 +3,16 @@
  <head>
   <meta charset="utf-8">
   <title>Лабораторна робота 2 </title>  
-    <style type="text/css">
-   table,h1,h3,h2,link {
-    background: maroon; 
-    color: white; 
-   }
-   </style>
+  <link href="css/style.css" rel="stylesheet">
  </head>
- <body background = "img/labfon.png" link="#FFD35F" vlink="#DBD7D2" > 
+ <body id ="back"> 
 	<center>
+        <?
+       include 'srcfile\headers.php';
+      ?>
 	<form action="" method="post">
 		<table>	
-			<h2><a href ="index.php">Лаб 1 <a><a href ="lab_2.php">Лаб 2 <a><a href ="lab_3.php">Лаб 3 <a><a href ="lab_4.php">Лаб 4<a></h2><br>
+
 		<h2>У форму вводиться набір цифр. Вивести у вікно браузера усіх клієнтів, телефонні номери яких містять задані цифри.</h2>
 			    <tr>
 					<th>Цифри</th> 
@@ -27,21 +25,8 @@
     	</table>
 	</form>
 
-	<?php
-
-	function ReadFile1() {
-            $arr = array();
-            $file = fopen("text.txt", "r");
-            if ($file) {
-                while (!feof($file)) {
-                    $text = fgetss($file);
-                    $arr[] = explode("	", $text);
-                }
-                fclose($file);
-                return $arr;
-            }
-            return NULL;
-        }
+	<?
+     include 'srcfile\readTable.php';      
 
 if(isset($_POST['search'])){
   	 if((preg_match("/^[0-9]+/",$_POST["cifra"]))){
@@ -63,10 +48,6 @@ if(isset($_POST['search'])){
    echo "</table></center>"; 
 	}else echo "<h3>Неправильно заповненe полe!</h3>";
   }
-
- 
-
-
 	?>
 	</center>
 </body>
